@@ -7,12 +7,14 @@
 		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
-				<title>Hello World!</title>
-				<description>&lt;p&gt;*** Min&lt;/p&gt;
+				<title>Get retain count in ARC mode</title>
+				<description>&lt;pre&gt;&lt;code&gt;NSLog(@&quot;Retain count is %ld&quot;, CFGetRetainCount((__bridge CFTypeRef)myObject));
+
+&lt;/code&gt;&lt;/pre&gt;
 </description>
 				<pubDate>Fri, 15 Nov 2013 00:00:00 +0900</pubDate>
-				<link>/general/setup/demo/2013/11/15/hello-world.html</link>
-				<guid isPermaLink="true">/general/setup/demo/2013/11/15/hello-world.html</guid>
+				<link>/memory%20management/2013/11/15/hello-world.html</link>
+				<guid isPermaLink="true">/memory%20management/2013/11/15/hello-world.html</guid>
 			</item>
 		
 	</channel>

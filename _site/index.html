@@ -57,6 +57,8 @@
 			</a>
 			
 			<a class="navbar-brand" href="/">
+				<img src="http://www.gravatar.com/avatar/726351295ec82e145928582f595aa3aa?s=35" class="img-circle" />
+				
 			</a>
 		</div>
 
@@ -169,12 +171,14 @@
   </span>
 
   <h2>
-    <a href="/general/setup/demo/2013/11/15/hello-world.html">Hello World!</a>
+    <a href="/memory%20management/2013/11/15/hello-world.html">Get retain count in ARC mode</a>
   </h2>
 
   <div>
     
-    <p>*** Min</p>
+    <pre><code>NSLog(@"Retain count is %ld", CFGetRetainCount((__bridge CFTypeRef)myObject));
+
+</code></pre>
 
     
   </div>
@@ -204,6 +208,14 @@
 </ul>
 
 
+
+
+		<footer>
+			<hr/>
+			<p>
+				&copy; 2016 dbyll with Jekyll. Theme: <a href="https://github.com/dbtek/dbyll">dbyll</a> by dbtek.
+			</p>
+		</footer>
 	</div>
 
 	<script type="text/javascript" src="/assets/resources/jquery/jquery.min.js"></script>

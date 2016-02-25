@@ -1,10 +1,13 @@
 ---
 layout: post
-title: Hello World!
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+title: Get retain count in ARC mode
+categories: [memory management]
+tags: [retaincount]
 fullview: true
 comments: true
 ---
 
-*** Min
+```
+NSLog(@"Retain count is %ld", CFGetRetainCount((__bridge CFTypeRef)myObject));
+
+```
